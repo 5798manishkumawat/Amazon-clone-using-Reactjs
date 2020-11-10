@@ -1,4 +1,5 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// eslint-disable-next-line no-unused-vars
 const firebaseConfig = {
 	apiKey: "AIzaSyD_vh_F_nGqC4Sf7srwUsiclihbWg9xMrk",
 	authDomain: "clone-using-reactjs.firebaseapp.com",
