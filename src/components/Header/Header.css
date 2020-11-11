@@ -50,8 +50,12 @@
 }
 
 .header_basketCount {
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-right: 10px;
+	border-radius: 30%;
+	padding: 2px;
+	border: 2px solid orange;
+	place-items: center;
 }
 .header_nav {
 	display: flex;
