@@ -6,7 +6,7 @@ import "./Checkout.css";
 
 function Checkout() {
 	// eslint-disable-next-line no-unused-vars
-	const [{ cart }, dispatch] = useStateValue();
+	const [{ cart, user }, dispatch] = useStateValue();
 	return (
 		<div className="checkout">
 			<div className="checkout_left">
@@ -16,10 +16,12 @@ function Checkout() {
 					alt=""
 				/>
 				<div>
+					<h3>Hello, {user?.email}</h3>
 					<h2 className="checkout_title">Your Shopping Basket</h2>
 					{cart?.map((item) => {
 						return (
 							<CheckoutProduct
+								key={item.id}
 								id={item.id}
 								image={item.image}
 								price={item.price}

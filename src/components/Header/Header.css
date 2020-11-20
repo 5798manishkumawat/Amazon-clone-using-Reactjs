@@ -7,6 +7,10 @@
 	top: 0;
 	z-index: 100;
 }
+.header > a,
+.header_nav > a {
+	text-decoration: none;
+}
 
 .header_logo {
 	width: 100px;
